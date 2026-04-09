@@ -157,7 +157,7 @@ def process_pdfs(files):
     embedding=embeddings,
     persist_directory="./chroma_db"
 )
-)
+
 
     pipe = pipeline(
         "text2text-generation",
