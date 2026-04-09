@@ -41,7 +41,7 @@ Framework: LangChain
 PDF Processing: PyPDFLoader
 📦 Installation & Setup
 1️⃣ Clone Repository
-git clone https://github.com/your-username/rev-genai-pdf-assistant.git
+git clone 
 cd rev-genai-pdf-assistant
 2️⃣ Create Virtual Environment (Optional)
 python -m venv venv
@@ -87,7 +87,7 @@ Add multi-user chat history database
 Improve UI with React frontend
 👨‍💻 Author
 
-Revanth Lakshmi Prasad Gullapalli
+Gullapalli Revanth Lakshmi Prasad
 AI/ML Developer | GenAI Enthusiast
 
 ⭐ If you like this project
