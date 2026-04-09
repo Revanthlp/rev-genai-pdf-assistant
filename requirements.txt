@@ -3,12 +3,11 @@ streamlit==1.33.0
 langchain==0.2.14
 langchain-community==0.2.12
 
-faiss-cpu==1.13.2
-
-pypdf
-sentence-transformers
+chromadb
 
 transformers==4.41.1
 torch
 
+sentence-transformers
+pypdf
 numpy<2

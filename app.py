@@ -10,7 +10,7 @@ from transformers import pipeline
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores import FAISS
+from langchain_community.vectorstores import Chroma
 from langchain_community.llms import HuggingFacePipeline
 
 from langchain.chains import ConversationalRetrievalChain
@@ -152,7 +152,12 @@ def process_pdfs(files):
         model_name="sentence-transformers/all-MiniLM-L6-v2"
     )
 
-    vectorstore = FAISS.from_documents(docs, embeddings)
+    vectorstore = Chroma.from_documents(
+    documents=docs,
+    embedding=embeddings,
+    persist_directory="./chroma_db"
+)
+)
 
     pipe = pipeline(
         "text2text-generation",
