@@ -1,0 +1,12 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.dll
+*.log
+.env
+models/
+*.pt
+*.pth
