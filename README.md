@@ -41,7 +41,7 @@ Framework: LangChain
 PDF Processing: PyPDFLoader
 📦 Installation & Setup
 1️⃣ Clone Repository
-git clone 
+git clone https://github.com/Revanthlp/rev-genai-pdf-assistant
 cd rev-genai-pdf-assistant
 2️⃣ Create Virtual Environment (Optional)
 python -m venv venv
